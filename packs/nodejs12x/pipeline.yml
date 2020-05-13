@@ -1,5 +1,6 @@
 extends:
-  file: ../pipeline.yaml
+  label: jenkins-nodejs12x
+  container: nodejs
 agent:
   image: gcr.io/jenkinsxio/builder-nodejs12x:2.1.35-665
 pipelines:
